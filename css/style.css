@@ -63,7 +63,7 @@
   width: 100%;
   font-size: 40px;
   font-weight: bold;
-  color: #555;
+  color: rgb(0, 247, 255);
 }
 
 .top_all {
@@ -136,10 +136,11 @@
 /* サービス */
 /* プログラミング教育について */
 .app_img_right{
- padding-right: 0%;
- width: 50%;
- height:auto;
-
+  width: 500px;
+  height: auto;
+  margin: auto;
+  positon:right center
+ 
 }
 
 .frame_education{
@@ -160,8 +161,8 @@
   height: 100%;
   display: inline-table;
   width: 50%;
-  margin: 30px;
-  padding: 10px;
+  margin: 50px;
+  padding: 50px;
 }
 
 /* デザインについて */
@@ -169,9 +170,9 @@
 .frame_design {
   height: 100%;
   display: inline-table;
-  width: 50%;
-  margin: 30px;
-  padding: 10px;
+  width: 300px;
+  margin: 120px;
+  padding: 20px;
 }
 
 
@@ -186,7 +187,39 @@
   color: rgb(0, 0, 0);
 }
 
+.how_to{
+  margin: 100px;
+  padding:20px;
+}
+.how_list{
+  height: 100%;
+  display: inline-table;
+  width: 300px;
+  margin: 120px;
+  padding: 20px;
+}
+
 /* 質問 */
+.question{
+  margin:10px;
+  padding:100px;
+  height:auto;
+}
+
+.question_list{
+  margin: 10px;
+  padding: 50px;
+  height: auto;
+}
+
+.question_more{
+  text-align: center;
+  background: #e6a117;
+  width: 17%;
+  margin: 0 auto;
+  padding: 10px;
+  border-radius: 10px;
+}
 
 
 /* お問合せ */
@@ -195,6 +228,7 @@
 .contact_section {
   background: rgb(250, 245, 245);
   padding-bottom: 100px;
+  text-align: center;
 }
 
 .more {
@@ -208,6 +242,8 @@
 
 .how_to{
   background-color: whitesmoke;
+  margin: 20px;
+  text-align: center;
 }
 
 .how_list{
